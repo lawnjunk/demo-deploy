@@ -1,0 +1,27 @@
+{
+  "name": "deploy-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "superagent-promise-plugin": "^3.2.0",
+    "superagent-use": "0.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.0",
+    "body-parser": "^1.15.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.0",
+    "morgan": "^1.7.0"
+  }
+}
